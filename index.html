@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <title>ScatterPlot</title>
 </head>
 
 <body>
 
-    <script src="./script.js"></script>
-    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+    <svg id="canvas">
+        <text id="title" x="200" y="30">Doping in Professional Bicycle Racing 35 Fastest times up Alpe d'Huez</span>
+        </text>
+        <text id="sub-title" x="200" y="35"></text> </svg>
 </body>
+<div id='legend'>
+    YEAR (x) vs TIME (Y) </br />
+    Orange = Doping Allegation |
+    Green = No Doping Allegations
+</div>
+<div id='tooltip'>
+
+</div>
+<script src="./script.js">
+</script>
+<script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>
